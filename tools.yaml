@@ -1,0 +1,15 @@
+sources:
+  bigquery:
+    kind: "bigquery"
+    project: "fon-test-project"
+
+tools:
+ execute_sql_tool:
+    kind: bigquery-execute-sql
+    source: bigquery
+    description: Use this tool to execute sql statement.
+
+
+toolsets:
+   fon-toolset:
+     - execute_sql_tool
