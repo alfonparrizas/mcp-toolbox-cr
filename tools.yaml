@@ -11,6 +11,6 @@ tools:
 
 
 toolsets:
-   fon-toolset:
+   adk-travel-agent-toolset:
      - execute_sql_tool
 
